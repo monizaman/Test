@@ -421,4 +421,5 @@ small{
 .footer-nav ul a {
 	color: #969595;
 	text-decoration: none;
+	text-transform: uppercase;
 }
