@@ -88,7 +88,7 @@ a{
 }
 
 .financial-btn.looking-btn {
-	margin-left: -68px;
+	margin-left: -42px;
 	/* margin-top: -57px; */
 }
 
@@ -420,6 +420,6 @@ small{
 	padding: 20px;
 }
 .footer-nav ul a {
-	color: #fff;
+	color: #969595;
 	text-decoration: none;
 }
