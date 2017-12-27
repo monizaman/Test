@@ -11,27 +11,36 @@
 	<script src="assets/js/jquery-3-2-1.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 	 <div class="homepage-slides-wrapper">
 	  	<div class="homepage-slides">
 	  		<div class="single-slide-item slide-bg-1">
-	  			<div class="mainmanu-area">
-	  				<div class="container-fluid">
-		  					<div class="logo">
-		  						<img src="images/logo.png" alt="logo">
-		  					</div>
-		  					<div class="mainmenu">
-		  						<nav>
-		  							<ul>
-		  								<li><a href="#">Home</a></li>
-		  								<li><a href="#">Demo</a></li>
-		  								<li><a href="#">Portfolio</a></li>
-		  								<li><a href="#">Shortcode</a></li>
-		  								<li><a href="#">Contact</a></li>
-		  							</ul>
-		  						</nav>
-		  					</div>
-	  				</div>			
-	 			 </div>
 	 			 <div class="slide-item-table">
 	 			 	<div class="slide-item-tablecell">
 	 			 		<div class="container">
@@ -63,24 +72,35 @@
 				</div>
 					<div class="col-md-4 single-service">
 						<div class="single-service-item">
-							<img src="assets/img/service-img-1.jpg" alt="icon">
-							<h3>Financial Experts</h3>
+							<div class="single-service-img">
+								<img src="assets/img/service-img-1.jpg" alt="icon">
+							</div>
+							<div class="single-item-text">
+								<h3>Financial Experts</h3>
 							<p>Coordinates for abs po oordinates for abs potioning the closes</p>
+							</div>
+							
 						</div>
 						<div class="single-service-item">
-							<img src="assets/img/service-img-2.jpg" alt="icon">
+							<div class="single-service-img">
+								<img src="assets/img/service-img-2.jpg" alt="icon">
+							</div>
 							<h3>Financial Experts</h3>
 							<p>Coordinates for abs po oordinates for abs potioning the closes</p>
 						</div>
 					</div>
 					<div class="col-md-4 single-service">
 						<div class="single-service-item">
-							<img src="assets/img/service-img-3.jpg" alt="icon">
+							<div class="single-service-img">
+								<img src="assets/img/service-img-3.jpg" alt="icon">
+							</div>
 							<h3>Financial Experts</h3>
 							<p>Coordinates for abs po oordinates for abs potioning the closes</p>
 						</div>
 						<div class="single-service-item">
-							<img src="assets/img/service-img-4.jpg" alt="icon">
+							<div class="single-service-img">
+								<img src="assets/img/service-img-4.jpg" alt="icon">
+							</div>
 							<h3>Financial Experts</h3>
 							<p>Coordinates for abs po oordinates for abs potioning the closes</p>
 						</div>
@@ -89,7 +109,6 @@
 		</div>
 	</div>
 	<!-- End Financial Content Area -->
-
 
 	<!-- Company Value -->
 	<div class="company-value">
@@ -136,7 +155,9 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="single-service-item ">
-						<img src="assets/img/core-service-1.jpg" alt="icon">
+						<div class="single-service-img">
+							<img src="assets/img/core-service-1.jpg" alt="icon">
+						</div>
 						<h4>Financial Experts</h4>
 						<p>Coordinates for abs po oordinates for abs potioning the closes</p>
 					</div>
@@ -361,24 +382,43 @@ http://t.co/xGQF0aEz8F </p>
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 text-center">
 					<div class="copyright">
 						<p>&copy THEMEXPERT 2016</p>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="footer-nav">
-						<ul>
-							<li><a href="">About</a></li>
-							<li><a href="">Service</a></li>
-							<li><a href="">Platfrom</a></li>
-							<li><a href="">Blog</a></li>
-							<li><a href="">Contact</a></li>
-						</ul>
+						<nav class="navbar navbar-expand-lg navbar-light">
+					        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#footernavbarResponsive" aria-controls="footernavbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					          <span class="navbar-toggler-icon"></span>
+					        </button>
+					        <div class="collapse navbar-collapse" id="footernavbarResponsive">
+					          <ul class="navbar-nav ml-auto">
+					            <li class="nav-item">
+					              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+					            </li>
+					            <li class="nav-item">
+					              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+					            </li>
+					            <li class="nav-item">
+					              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+					            </li>
+					             <li class="nav-item">
+					              <a class="nav-link js-scroll-trigger" href="#portfolio">Blog</a>
+					            </li>
+					            <li class="nav-item">
+					              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+					            </li>
+					          </ul>
+					        </div>
+					    </nav>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
